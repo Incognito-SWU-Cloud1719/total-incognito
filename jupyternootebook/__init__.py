@@ -1,1 +1,1 @@
-from jupyternootebook.main import *
+from main import *
