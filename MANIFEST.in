@@ -1,4 +1,5 @@
 # Files in top-level directory:
 include *.*
 # Files in jupyternootebook directory
-include jupyternootebook/*
+include jupyternootebook/Makefile
+include jupyternootebook/vsftpd.conf
