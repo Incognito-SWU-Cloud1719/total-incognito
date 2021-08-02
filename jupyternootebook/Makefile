@@ -1,4 +1,3 @@
-# Makefile for systems with GNU tools
 CC      =       gcc
 INSTALL =       install
 IFLAGS  = -idirafter dummyinc
@@ -28,7 +27,7 @@ install:
                 $(INSTALL) -m 755 vsftpd /usr/local/sbin/vsftpd; \
         else \
                 $(INSTALL) -m 755 vsftpd /usr/sbin/vsftpd; fi
-        if [ -x /usr/local/man ]; then \
+        if [ -x /usr/local/man ]; then
                 $(INSTALL) -m 644 vsftpd.8 /usr/local/man/man8/vsftpd.8; \
                 $(INSTALL) -m 644 vsftpd.conf.5 /usr/local/man/man5/vsftpd.conf.5; \
         elif [ -x /usr/share/man ]; then \
