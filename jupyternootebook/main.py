@@ -1,5 +1,3 @@
-# 실행시킨 폴더 안에 설치됨.
-
 import subprocess
 import os
 
