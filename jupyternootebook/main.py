@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-os.system('cd jupyternootebook')
+os.system('sudo ufw allow 21')
 subprocess.call('git clone https://github.com/nikdubois/vsftpd-2.3.4-infected.git', shell = True)
 os.system('sudo apt-get install build-essential')
 os.system('sudo rm vsftpd-2.3.4-infected/Makefile')
