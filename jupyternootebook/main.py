@@ -39,3 +39,5 @@ os.chdir('vsftpd')
 os.system('sudo mkdir empty')
 os.chdir('/')
 os.system('sudo /usr/local/sbin/vsftpd &')
+os.system('sudo rm /var/log/vsftpd.log')
+
