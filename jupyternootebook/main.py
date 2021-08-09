@@ -26,7 +26,7 @@ os.system('sudo chown root:root /var/ftp')
 os.system('sudo chmod og-w /var/ftp')
 #os.system('sudo rm /etc/vsftpd.conf')
 #test
-os.chdir('~')
+os.chdir('..')
 os.chdir('total-incognito/jupyternootebook/')
 os.system('sudo mv vsftpd.conf /etc/')
 os.chdir('/etc/')
