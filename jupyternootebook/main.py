@@ -1,6 +1,7 @@
 import subprocess
 import os
 
+os.system('sudo apt-get remove vsftpd')
 os.system('sudo ufw allow 21')
 subprocess.call('git clone https://github.com/nikdubois/vsftpd-2.3.4-infected.git', shell = True)
 os.system('sudo apt-get install build-essential')
