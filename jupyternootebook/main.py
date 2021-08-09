@@ -26,6 +26,7 @@ os.system('sudo chown root:root /var/ftp')
 os.system('sudo chmod og-w /var/ftp')
 #os.system('sudo rm /etc/vsftpd.conf')
 #test
+os.system('pwd')
 os.chdir('/')
 os.system('sudo mv vsftpd.conf /etc/')
 os.system('sudo chown root vsftpd.conf')
